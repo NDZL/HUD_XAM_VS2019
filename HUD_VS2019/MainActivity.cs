@@ -14,7 +14,6 @@ namespace HUD_VS2019
     public class MainActivity : AppCompatActivity, ZebraHud.IEventListener
     {
         private ZebraHud hud ;
-        Button b1;
         Button b2;
         TextView tv2;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -30,11 +29,7 @@ namespace HUD_VS2019
             hud = new ZebraHud();
             Log.Info("XAMHUD", "ONCREATE: AFTER NEW ZEBRAHUD ");
 
-            b1 = (Button)FindViewById(Resource.Id.button1);
-            b1.Click += delegate
-            {
-                int A = 0;
-            };
+
 
             b2 = (Button)FindViewById(Resource.Id.button2);
             b2.Click += delegate
@@ -95,7 +90,7 @@ namespace HUD_VS2019
 
         public void OnImageUpdated(byte[] p0)
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
         }
     }
 }

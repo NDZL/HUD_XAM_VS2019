@@ -38,36 +38,31 @@
           android:layout_height=    "match_parent"
           android:layout_weight=    "1"    />
   </LinearLayout>
-        
-  <LinearLayout
-    android:orientation=    "vertical"
-    android:layout_width=    "match_parent"
-    android:layout_height=    "match_parent"
-    android:layout_weight=    "1"    >
-    <TextView
-        android:text=    "row one"
-        android:textSize=    "15pt"
+
+    <LinearLayout
+        android:orientation=    "vertical"
         android:layout_width=    "match_parent"
-        android:layout_height=    "wrap_content"
-        android:layout_weight=    "1"    />
-    <TextView
-        android:text=    "row two"
-        android:textSize=    "15pt"
-        android:layout_width=    "match_parent"
-        android:layout_height=    "wrap_content"
-        android:layout_weight=    "1"    
+        android:layout_height=    "match_parent"
+        android:layout_weight=    "1">
+        <TextView
+            android:text=    "row one"
+            android:textSize=    "15pt"
+            android:layout_width=    "match_parent"
+            android:layout_height=    "wrap_content"
+            android:layout_weight=    "1"    />
+        <TextView
+            android:text=    "row two"
+            android:textSize=    "15pt"
+            android:layout_width=    "match_parent"
+            android:layout_height=    "wrap_content"
+            android:layout_weight=    "1"
             android:id="@+id/textView2"
         />
-        <Button
-            android:text="INIT"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button1" />
         <Button
             android:text="SHOW MESSAGE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button2" />
-  </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
