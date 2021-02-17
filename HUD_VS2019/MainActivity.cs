@@ -92,5 +92,10 @@ namespace HUD_VS2019
         {
             //throw new System.NotImplementedException();
         }
+
+        public void OnCameraImageRawJpeg(byte[] p0)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
